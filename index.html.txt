@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto de las Fábricas en el Medio Ambiente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #a3d5d3;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            color: #555;
+            text-align: center;
+            padding: 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        .mission, .help, .objectives {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e2f0d9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .mission div, .help div, .objectives div {
+            width: 45%;
+        }
+        .photos img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .integrantes {
+            margin-top: 20px;
+        }
+        .integrante {
+            margin-bottom: 20px;
+            background-color: #e2f0d9;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .icono {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Impacto de las Fábricas en el Medio Ambiente</h1>
+    </header>
+    <main>
+        <section class="section mission">
+            <div>
+                <h2>Nuestra misión:</h2>
+                <p>Concientizar sobre los efectos negativos que las fábricas e industrias tienen en el medio ambiente y promover prácticas más sostenibles para reducir su impacto.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Niña con planta">
+            </div>
+        </section>
+        <section class="section help">
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Persona plantando un árbol">
+            </div>
+            <div>
+                <h2>Cómo puedes ayudar:</h2>
+                <p>Tu acción puede marcar la diferencia. Participa en campañas de reforestación, reduce tu consumo de productos industriales y apoya a organizaciones que promueven la sostenibilidad.</p>
+            </div>
+        </section>
+        <section class="section objectives">
+            <div>
+                <h2>Nuestros Objetivos:</h2>
+                <ul>
+                    <li>Reducir las emisiones industriales.</li>
+                    <li>Promover el uso de energías renovables en fábricas.</li>
+                    <li>Fomentar prácticas sostenibles en la industria.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Planta industrial">
+            </div>
+        </section>
+        <section class="photos">
+            <h2>Fotos Relacionadas</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Foto de una fábrica contaminando">
+            <img src="https://via.placeholder.com/800x400" alt="Emisiones industriales al aire">
+        </section>
+        <section class="integrantes">
+            <h2>Integrantes del Grupo y sus Contribuciones</h2>
+            <div class="integrante">
+                <h3><img src="https://via.placeholder.com/24" alt="Icono" class="icono"> Juan Cruz Gomez</h3>
+                <p>Actividad realizada: Investigación sobre los efectos contaminantes de las fábricas. Juan se encargó de recopilar información detallada sobre cómo las fábricas afectan el aire, el agua y el suelo.</p>
+            </div>
+            <div class="integrante">
+                <h3><img src="https://via.placeholder.com/24" alt="Icono" class="icono"> Enzo Bravo</h3>
+                <p>Actividad realizada: Desarrollo del diseño de la página web y recolección de imágenes. Enzo diseñó la estructura del sitio web y seleccionó las imágenes que ilustran los efectos de la contaminación industrial.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Juan Cruz Gomez y Enzo Bravo - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
